@@ -11,6 +11,47 @@ body {
 .logo-container img{
     height: auto; 
     width: auto; 
-    max-width: 140px; 
-    max-height: 280px;
+    max-width: 80px; 
+    max-height: 80px;
+}
+
+header {
+    display:flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+
+}
+
+.logo-container,.nav-links, .cart {
+    display:flex;
+}
+
+
+.logo-container{
+    
+    flex: 1;
+
+}
+
+nav {
+    flex: 2;
+}
+
+.cart {
+    flex: 1;
+    justify-content: end;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.nav-link {
+    color:#5f5f79;
+    font-size: 10px;
+    text-decoration: none;
 }
