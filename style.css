@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo-container img{
+    height: auto; 
+    width: auto; 
+    max-width: 140px; 
+    max-height: 280px;
+}
