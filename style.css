@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto Mono', monospace;
 
 }
+button {
+    font-family: 'Roboto Mono', monospace;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -58,8 +61,62 @@ nav {
 
 .presentation {
     display: flex;
+    width: 80%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
 }
 
+.introduction {
+    flex:1;
+
+}
+
+.cover {
+    flex:1;
+    
+    
+}
 .cover img {
     height: 60vh;
+}
+
+.intro-text h1 {
+    font-size:  44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #c77777, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+
+.cta {
+        padding: 50px 0px 0px 0px;
+}
+
+.cta-select {
+    border: 2px solid #c77777;
+    background: transparent;
+    color: #c77777;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+.cta-add {
+    background: #c77777;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    border: 2px solid #c77777;
 }
